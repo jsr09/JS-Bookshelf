@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 2px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#navBar{
+    background-color: aliceblue;
+    min-height: 60px;
+    min-width: 100%;
+    border-bottom:  2px solid black;
+    display: flex;
+    justify-content:space-between;
+
+}
+.nav{
+    list-style-type: none;
+}
+
+.bookStore{
+    font-style: italic;
+    font-size: 50px;
+    color: blue;
+    
+}
+
+#inputContainer{
+    background-color: rgb(48, 47, 47);
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input{
+    background-color: aliceblue;
+    height: 15px;
+    width: 150px;
+}
+.about{
+    text-underline-position: below;
+}
+.contact{
+    text-underline-position: below;
+}
+.button{
+    background-color: white;
+}
+
+
+
+#bookShelfContainer{
+    min-width: 100%;
+    border: 2px solid black;
+    background-color: dimgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+
+
+}
+
+.book{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    
+    
+}
+
+.titleAuthor{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+#aboutContainer, #contactContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.stuff{
+    padding-bottom: 20px;
+}
